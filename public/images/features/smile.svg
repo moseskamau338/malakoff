@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="273mm"
+   height="40mm"
+   viewBox="0 0 273 40"
+   version="1.1"
+   id="svg163"
+   inkscape:export-filename="/root/code/playground/malakoff/public/images/features/smile.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="smile.svg">
+  <defs
+     id="defs157" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="124.28571"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1412"
+     inkscape:window-height="1004"
+     inkscape:window-x="254"
+     inkscape:window-y="37"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata160">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       class="cls-11"
+       d="m 26.743657,17.834449 c -1.512271,-0.735917 -1.374789,-1.932787 -1.390958,-3.2348 A 27.059187,27.059187 0 0 0 25.093813,10.556126 C 24.560054,7.3213259 22.902231,5.0084309 19.610794,4.0864949 12.550828,2.0566649 7.3104343,6.7875669 8.5073343,14.534942 c 0.921906,-0.930005 0.646942,-1.811504 0.703548,-2.563589 0.323502,-4.7713401 3.0326437,-7.3672681 7.7069397,-7.2783231 4.504476,0.0648 7.140841,2.741509 7.278323,7.4400731 0,0.978513 -0.081,1.973224 0,2.935598 0.202341,1.617385 -0.50139,2.013662 -2.03793,1.981324 -4.609589,-0.08894 -9.219209,-0.0648 -13.8287997,0 -2.798116,0 -3.800897,1.124094 -3.687684,3.930279 q 0.202036,5.426379 0.50139,10.836629 c 0.137544,2.70914 1.099826,3.66341 3.76046,3.67151 q 7.2783237,0 14.5081397,0 c 2.547391,0 3.485496,-0.80872 3.663415,-3.23483 0.275087,-3.91411 0.412446,-7.82822 0.606535,-11.742361 0.12929,-1.115995 -0.0092,-2.232019 -0.938105,-2.676803 z m 0.08895,3.048811 c -0.234435,3.679583 -0.469022,7.351103 -0.646942,11.038783 -0.0972,1.87621 -1.01088,2.63636 -2.887091,2.61213 -4.747071,-0.0648 -9.502242,-0.0566 -14.2493147,0 -1.811504,0 -2.628296,-0.76829 -2.709171,-2.51509 -0.194089,-3.83323 -0.444784,-7.6584 -0.622704,-11.491662 -0.07274,-1.617385 0.808723,-2.523152 2.426108,-2.531222 2.7172407,0 5.4344827,0 8.1436537,0 h 7.755445 c 1.957055,-0.04035 2.911329,0.881468 2.790016,2.887061 z"
+       id="path30"
+       style="fill:#284374;stroke-width:0.808702" />
+    <text
+       class="cls-13"
+       id="text36"
+       style="font-weight:300;font-size:24.35px;font-family:Lato-Light, Lato;letter-spacing:0.16em;fill:#284374;stroke-width:0.808702"
+       x="36.245907"
+       y="29.398884">SMILE IDENTIT<tspan
+   class="cls-14"
+   x="253.97282"
+   y="29.398884"
+   id="tspan34"
+   style="stroke-width:0.808702">Y</tspan></text>
+  </g>
+</svg>
