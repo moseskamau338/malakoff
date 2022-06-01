@@ -29,7 +29,8 @@ class DemoRequestAdminMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Demo Request Incoming!')
+        return $this->from('admin@malakoff.co')
+            ->subject('Demo Request Incoming!')
             ->view('emails.demoadmin');
     }
 }

@@ -490,8 +490,8 @@ img {
           <table class="w-600 sm:w-full" cellpadding="0" cellspacing="0" role="presentation">
             <tr>
               <td class="p-48 sm:py-32 sm:px-24 text-center">
-                <a target="_blank" href="www.malakoffanalytics.co.ke">
-                  <img src="{{asset('images/logo-color.png')}}" width="75" alt="Malakoff Analytics">
+                <a target="_blank" href="malakoff.co">
+                  <img src="https://malakoff.co/images/logo-color.svg" width="75" alt="Malakoff Analytics">
                 </a>
               </td>
             </tr>

@@ -36,7 +36,7 @@
                  style="z-index: 999">
 
                 <a href="#_" class="relative z-5 flex items-center w-auto text-2xl font-extrabold leading-none text-black select-none">
-                    <img src="{{asset('images/logo-color.svg')}}" class="w-[75%]" alt="Malakoff Analytics">
+                    <img src="{{asset('images/logo-color.svg')}}" class="w-[55%]" alt="Malakoff Analytics">
                 </a>
 
                 <nav class="items-center justify-center hidden space-x-8 text-gray-200 md:flex z-100">
@@ -132,7 +132,7 @@
                                 text-white
                                 transition duration-200 transform rounded-lg shadow-2xl sm:px-6 bg-gradient-to-tr from-blue-500
                                 to-blue-300 sm:text-lg hover:scale-105">Request Demo</button>
-                                <a href="#_" class="flex items-center justify-start px-4 py-3 text-sm font-bold tracking-tight text-gray-500 transition duration-200 rounded-lg sm:px-6 sm:text-lg group hover:text-blue-500">
+                                <a class="flex items-center justify-start px-4 py-3 text-sm font-bold tracking-tight text-gray-500 transition duration-200 rounded-lg sm:px-6 sm:text-lg group hover:text-blue-500">
                                     <svg class="w-6 mr-2 text-gray-500 transition duration-200 fill-current group-hover:scale-125 group-hover:text-blue-500" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.26587 8.87988H2.26587V20.8799C2.26587 21.4103 2.47658 21.919 2.85166 22.2941C3.22673 22.6692 3.73544 22.8799 4.26587 22.8799H16.2659V20.8799H4.26587V8.87988Z"></path><path d="M20.2659 2.87988H8.26587C7.73544 2.87988 7.22673 3.0906 6.85166 3.46567C6.47658 3.84074 6.26587 4.34945 6.26587 4.87988V16.8799C6.26587 17.4103 6.47658 17.919 6.85166 18.2941C7.22673 18.6692 7.73544 18.8799 8.26587 18.8799H20.2659C20.7963 18.8799 21.305 18.6692 21.6801 18.2941C22.0552 17.919 22.2659 17.4103 22.2659 16.8799V4.87988C22.2659 4.34945 22.0552 3.84074 21.6801 3.46567C21.305 3.0906 20.7963 2.87988 20.2659 2.87988ZM11.2659 14.8799V6.87988L18.2659 10.8799L11.2659 14.8799Z"></path></svg>
                                     Watch Demo
                                 </a>

@@ -27,7 +27,8 @@ class SubscriberJoined extends Mailable
      */
     public function build()
     {
-        return $this->subject('Malakoff Analytics: Welcome aboard 🎉')
+        return $this->from('info@malakoff.co', 'Malakoff')
+            ->subject('Malakoff Analytics: Welcome aboard 🎉')
             ->view('emails.subscription');
     }
 }

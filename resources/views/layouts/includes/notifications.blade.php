@@ -1,6 +1,6 @@
   @if(session()->has('message'))
         @if(session('message')->type === 'success')
-        <div x-data="{ show: true }" x-show="show" x-init="setTimeout(() => show = false, 5000)" class="rounded-md bg-green-100 p-4 border-2
+        <div x-data="{ show: true }" x-show="show" x-init="setTimeout(() => show = false, 10000)" class="rounded-md bg-green-100 p-4 border-2
         border-green-200 right-10 top-10 fixed z-50 animate__animated animate__slideInRight">
             <div class="flex">
             <div class="flex-shrink-0">

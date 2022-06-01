@@ -33,12 +33,14 @@ class DemoRequest extends Component
             $demoRequest = DemoModel::create($validated);
 
             // mail client
-            \Mail::to($demoRequest->email)->send(new DemoRequestClientMail());
-
+            \Mail::to($demoRequest->email)
+                ->send(new DemoRequestClientMail());
             // mail admins
-            \Mail::to('info@malakoffanalytics.co.ke')->send(new DemoRequestAdminMail($demoRequest));
+            \Mail::to('info@malakoff.co')->send(new DemoRequestAdminMail($demoRequest));
 
-           Session::flash('message',(object)['type'=>'success', 'message' => 'Your request for a demo has been received for processing. Thank you!']);
+            Session::flash('message',(object)['type'=>'success', 'message' => 'Your request for a demo has been received for processing. Thank you!']);
+
+
        }catch(\Throwable $e){
           Session::flash('message',(object)['type'=>'error', 'message' => 'System error: '.$e->getMessage()]);
        }

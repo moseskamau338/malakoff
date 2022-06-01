@@ -28,7 +28,8 @@ class DemoRequestClientMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Demo Request Received!')
+        return $this->from('info@malakoff.co')
+            ->subject('Demo Request Received!')
             ->view('emails.democonfirm');
     }
 }
