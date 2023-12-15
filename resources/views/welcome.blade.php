@@ -736,11 +736,10 @@
                 </div>
                 <div class="flex flex-col items-center justify-between mx-auto mt-8 space-y-4 md:space-y-0 md:flex-row lg:mt-16">
                     <nav class="flex flex-wrap justify-center space-x-6">
-                        <a href="#" class="cursor-not-allowed opacity-50 mb-2 text-sm hover:text-gray-700">Privacy Policy</a>
+                        <a href="/privacy-policy" class="mb-2 text-sm hover:text-gray-700">Privacy Policy</a>
                         <a href="#" class="cursor-not-allowed opacity-50 mb-2 text-sm hover:text-gray-700">Disclaimers</a>
                         <a href="#" class="cursor-not-allowed opacity-50 mb-2 text-sm hover:text-gray-700">Terms and Conditions</a>
                         <a href="#" class="cursor-not-allowed opacity-50 mb-2 text-sm hover:text-gray-700">Refund Policy</a>
-                        <a href="#" class="cursor-not-allowed opacity-50 mb-2 text-sm hover:text-gray-700">Legal</a>
                     </nav>
                     <nav class="flex items-center space-x-2">
                         <a href="#" class="text-gray-500 hover:text-gray-600">
