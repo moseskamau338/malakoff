@@ -3,8 +3,10 @@
         <form action="/account-settings" method="POST" class="bg-white py-6 space-y-6 sm:p-6 border border-slate-200 rounded">
           @csrf
               <div>
-                <h3 class="text-2xl leading-6 font-medium text-gray-900">Update Your Account Preferences</h3>
-                <p class="mt-1 text-sm text-gray-500">This will help us authorize data handling or deletion on our part.</p>
+                <h3 class="text-2xl leading-6 font-medium text-gray-900">
+                  Account deletion for Mwalimu Smart App
+                </h3>
+                <p class="mt-1 text-sm text-gray-500">Fill out this form to request account deletion</p>
               </div>
 
               <div class="grid grid-cols-12 gap-6">
