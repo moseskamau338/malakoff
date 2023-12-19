@@ -522,7 +522,7 @@ img {
                   </tr>
                   <tr>
                     <td class="text-center text-gray-600 text-xs px-24">
-                      <p class="m-0 mb-4 uppercase">&copy; Malakoff Analytics 2022</p>
+                      <p class="m-0 mb-4 uppercase">&copy; Malakoff Analytics {{now()->year}}</p>
                       <p class="m-0 italic">Speed, Convenience, and Accessibility</p>
                       <p class="cursor-default">
                         <a href="www.malakoffanalytics.co.ke" class="text-blue-500 no-underline hover:underline">Site</a> &bull;

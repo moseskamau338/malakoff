@@ -32,15 +32,15 @@
     <body class="antialiased" x-data="{showContactForm: false}">
         {{--navigation--}}
         <section class="relative bg-white w-full">
-            <div class="flex items-center justify-between h-24 px-8 mx-auto max-w-7xl"
+            <div class="flex items-center justify-between px-8 mx-auto max-w-7xl py-8"
                  style="z-index: 999">
 
-                <a href="#_" class="relative z-5 flex items-center w-auto text-2xl font-extrabold leading-none text-black select-none">
-                    <img src="{{asset('images/logo-color.svg')}}" class="w-[55%]" alt="Malakoff Analytics">
+                <a href="/" class="relative z-5 flex items-center w-auto">
+                    <img src="{{asset('images/logo-color.svg')}}" style="width: 40%" alt="Malakoff Analytics">
                 </a>
 
                 <nav class="items-center justify-center hidden space-x-8 text-gray-200 md:flex z-100">
-                    <a href="#home" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false" class="relative
+                    <a href="/" x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false" class="relative
                     inline-block text-base font-bold text-gray-700 uppercase transition duration-150 ease hover:text-gray-900">
                         <span class="block">Home</span>
                         <span class="absolute bottom-0 left-0 inline-block w-full h-1 -mb-1 overflow-hidden">

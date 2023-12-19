@@ -21,10 +21,14 @@ Route::get('/account-settings', function(){
     return view('account_settings');
 });
 Route::get('/settings-updated', function(){
-    return view('account_settings');
+    return view('account_settings_success');
 });
 
 Route::post('/account-settings', function(Request $request){
+    $request['onboarding_data'] = $request->has('onboarding_data');
+    $request['loan_origination_data'] = $request->has('loan_origination_data');
+
+    // dd($request->all());
     $request->validate([
        "first_name" => "required",
        "last_name" => "required",
@@ -34,7 +38,7 @@ Route::post('/account-settings', function(Request $request){
        "loan_origination_data" => "boolean|required_without:onboarding_data",
     ]);
     try {
-        \Mail::send(new \App\Mail\AccountSettingsMail($request->all()));
+        \Mail::to('info@malakoff.co')->send(new \App\Mail\AccountSettingsMail($request->all()));
         return redirect()->to('settings-updated');
     }catch (error){
         return back();

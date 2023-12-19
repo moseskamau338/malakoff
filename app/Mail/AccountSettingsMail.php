@@ -11,12 +11,13 @@ class AccountSettingsMail extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $details;
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($account_deletion_form)
+    public function __construct($account_deletion_form = [])
     {
         $this->details = $account_deletion_form;
     }
@@ -29,12 +30,7 @@ class AccountSettingsMail extends Mailable
     public function build()
     {
          return $this->from('admin@malakoff.co')
-                 // 'johnkiptum@malakoffanalytics.co.ke',
-                 // 'info@malakoffanalytics.co.ke'
-             ->to([
-                 $this->details['email'],
-                 'moseskamau338@gmail.com'
-             ])
+             ->cc('johnkiptum@malakoffanalytics.co.ke')
             ->subject('Account Deletion Request')
             ->view('emails.account_settings');
     }

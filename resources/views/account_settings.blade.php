@@ -47,7 +47,7 @@
                   <h3>Which data should be deleted?</h3>
                   <div class="flex items-start">
                     <div class="h-5 flex items-center">
-                      <input id="onboarding_data" value="{{true}}" name="onboarding_data" type="checkbox" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
+                      <input id="onboarding_data" value="0" name="onboarding_data" type="checkbox" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
                     </div>
                     <div class="ml-3 text-sm">
                       <label for="onboarding_data" class="font-medium text-gray-700">Onboarding Data</label>
@@ -62,7 +62,7 @@
                   <div>
                     <div class="flex items-start">
                       <div class="h-5 flex items-center">
-                        <input id="loan_origination_data" value="{{true}}" name="loan_origination_data" type="checkbox" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
+                        <input id="loan_origination_data" value="0" name="loan_origination_data" type="checkbox" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
                       </div>
                       <div class="ml-3 text-sm">
                         <label for="loan_origination_data" class="font-medium text-gray-700">Loan Origination Data</label>

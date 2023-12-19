@@ -473,6 +473,25 @@ img {
   .sm\:leading-32 {
     line-height: 32px !important
   }
+   .table-style {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .table-style th, .table-style td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    .table-style tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    .table-style th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: #4CAF50;
+        color: white;
+    }
 }
 </style>
 
@@ -487,7 +506,7 @@ img {
             <tr>
               <td class="p-48 sm:py-32 sm:px-24 text-center">
                 <a target="_blank" href="malakoff.co">
-                  <img src="https://malakoff.co/images/logo-color.svg" width="75" alt="Malakoff Analytics">
+                  <img src="https://malakoff.co/images/logo-color.svg" style="width: 80%" alt="Malakoff Analytics">
                 </a>
               </td>
             </tr>
@@ -501,8 +520,34 @@ img {
                         To Admin,
                       </p>
                       <p class="mb-24">
-                        User has requested for their account deletion with the following details.
+                        A user has requested for their account deletion with the following details.
                       </p>
+                      <table class="table-style">
+                        <tr>
+                            <td>First Name</td>
+                            <td>{{$details['first_name']}}</td>
+                        </tr>
+                        <tr>
+                            <td>Last Name</td>
+                            <td>{{$details['last_name']}}</td>
+                        </tr>
+                        <tr>
+                            <td>Username</td>
+                            <td>{{$details['username']}}</td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>{{$details['email']}}</td>
+                        </tr>
+                        <tr>
+                            <td>Onboarding Data</td>
+                            <td>{{$details['onboarding_data'] ? 'YES' : 'NO'}}</td>
+                        </tr>
+                        <tr>
+                            <td>Loan Origination Data</td>
+                            <td>{{$details['loan_origination_data'] ? 'YES' : 'NO'}}</td>
+                        </tr>
+                    </table>
 
                       <table class="w-full" cellpadding="0" cellspacing="0" role="presentation">
                         <tr>
@@ -522,7 +567,7 @@ img {
                   </tr>
                   <tr>
                     <td class="text-center text-gray-600 text-xs px-24">
-                      <p class="m-0 mb-4 uppercase">&copy; Malakoff Analytics 2022</p>
+                      <p class="m-0 mb-4 uppercase">&copy; Malakoff Analytics {{now()->year}}</p>
                       <p class="m-0 italic">Speed, Convenience, and Accessibility</p>
                       <p class="cursor-default">
                         <a href="www.malakoffanalytics.co.ke" class="text-blue-500 no-underline hover:underline">Site</a> &bull;
